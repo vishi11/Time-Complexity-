@@ -1,0 +1,86 @@
+.main_div{
+    display: flex;
+    width: 350px;
+    flex-direction: row;  
+    justify-content: center;
+    text-align: center; 
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    max-width: 400px; 
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    word-spacing: 2%;
+}
+
+.tit{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -3%;
+    margin-bottom: -0.5rem;
+}
+
+img{
+    margin-top: 10%;
+    width: 50px;
+}
+.types
+{
+    color: #e94653;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: auto;
+
+}
+ul{
+    
+    display: flex;
+    margin-left: 1rem;
+}
+
+li{
+    list-style: none;
+}
+.answer
+{
+    overflow:inherit;
+}
+#submit,.btn
+{
+    padding: 1rem 3 rem;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 4%;
+    background-color: #7d9ada;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #074ce0;;
+}
+.btn:hover{
+    background-color: green;
+}
+
+#showAns 
+{
+    padding: 3rem 4rem;
+    align-items: center;
+    margin-top: -20%;
+    
+}
+.scoreAns{
+    display: none;
+}
+h3{
+    text-align: center;
+    color: rgb(6, 151, 55);
+    margin-bottom: -2rem;
+}
+.size
+{
+    font-size: 1rem;   
+}

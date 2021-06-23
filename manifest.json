@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2 ,
+  
+    "name": "Time Complexity",
+    "description": "Quickly revise Time Complexity",
+    "version": "1.0.0",
+    "icons": { "128": "timecom.png" },
+    "browser_action": {
+      "default_icon": "timecom.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+  }
